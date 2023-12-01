@@ -4,9 +4,22 @@ This project is a web application that allows users to interact with an AI chatb
 
 ## Features
 
-1. User can enter queries in the provided input field.
-2. Chatbot generates responses either randomly (initially) or using OpenAI API.
-3. Responses are displayed in real-time on the web interface.
+1. Basic Chat Interface:
+   Users interact with the AI agent through a simple chat interface.
+   Input field for querying the Chatbot.
+
+2. OpenAI Integration:
+   Extends the Chatbot to use OpenAI API (text-davinci-003) for advanced responses.
+   API key provided for this step only.
+
+3. Domain-Specific Knowledge:
+   Customizes responses based on domain-specific knowledge from supplied PDFs.
+   Uses OpenAI embedding model API (text-embedding-ada-002).
+
+4. PDF Upload and Integration:
+   Allows users to upload and browse multiple PDFs.
+   PDF content sets the context for Chatbot responses.
+   Utilizes Excel as a database for storing PDF embeddings.
 
 ## Setup
 
