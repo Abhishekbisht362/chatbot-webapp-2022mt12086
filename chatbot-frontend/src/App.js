@@ -70,7 +70,7 @@ const App = () => {
         <button onClick={handleSendMessage}>Send</button>
       </div>
       <div>
-        <p>Response: {response}</p>
+        <p>{response}</p>
       </div>
     </div>
   );
